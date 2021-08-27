@@ -41,6 +41,8 @@ public:
 
 // Functions
 // --------------------------------------------------
+
+// -------------------------
 	UFUNCTION()
 	void SetRingColour(FLinearColor LinearColour);
 

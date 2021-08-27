@@ -58,6 +58,9 @@ public:
 	AActor_CommandRing* CommandRing_Reference;
 
 // ------------------------- Entity
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	F_Entity_Struct EntityData;
+
 	// Occupied coordinates in world
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 	F_IntVector2D TileGridCoordinates;
